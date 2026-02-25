@@ -1,32 +1,42 @@
-# **Абыр Валг Работотович**
-Мужчина, сколько то лет, родился, в 1.11.2011.
+# **Kalashnikov Illarion**
+
 ___________
 
-## Контакты для связи
-почта: none@gmai.com
-телефон: +79101010011
+## Contacts
+email: none@gmai.com
+tel: +79101010011
 ________
-## О себе
-Стремлюсь узнавать новое и хочу пройти до конца в RSSchool. 
+## About me
+I strive to learn new things and I want to go all the way to RSSchool. 
 
 _____
-## Навыки
-- Коммуникабельность
-- Грамотное общение в рамках деловой переписки
+## skills
+- Communication skills
+- Competent communication in the framework of business correspondence
 - Настройка сетевых подключений
 ____
 ## Примеры кода
-
+```
+const areaOrPerimeter = function(l , w) {
+  // Return your answer
+if (l == w) {
+  return l*w;
+  }
+  else {
+    return 2*(l+w);
+  }
+};
+```
 ____
-## Опыт работы
+## Work experience
 - ### ООО "Рога и копыта" 3 года
 - ### ООО "СетиНН" 2 года
 - ### ИП Приходников 1 год
 ____
-## Образование
+## Education
 Высшее
 ### Городской Институт им.Тогото Итогото
 
 ___
-## Английски зык
-Уровень: A1
+## English language
+Stage: A1
