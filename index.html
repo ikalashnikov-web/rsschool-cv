@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV Kalashnikov Illarion</title>
   </head>
   <body>
     <header>
       <h1>Kalashnikov Illarion</h1>
-      <nav>
-        <ul>
+      <img class="myFoto" src="img/me-cv.jpg" alt="it's my foto" width="125px" height="auto" >
+      <nav class="nav">
+        <ul class="nav__list">
           <li>
             <a href="#Contacts">Contacts</a>
           </li>
@@ -36,7 +40,7 @@
       </nav>
     </header>
     <main>
-      <div id="Contacts">
+      <div id="Contacts" class="odd">
         <h2>Contacts</h2>
         <ul>
           <li>
@@ -47,11 +51,11 @@
           </li>
         </ul>
       </div>
-      <div id="About-me">
+      <div id="About-me" class="even">
         <h2>About me</h2>
-        <p></p>
+        <p class="p__aboutMe">Hello! My name is Illarion. I like to create and work with my hands. I've found a way to express my desires through programming. My entire life has been filled with attempts to write a program, game, or website. I believe that sooner or later, I will achieve my goals and experience success.</p>
       </div>
-      <div id="Skills">
+      <div id="Skills" class="odd">
         <h2>Skills</h2>
         <ul>
           <li>
@@ -65,7 +69,7 @@
           </li>
         </ul>
       </div>
-      <div id="Code-example">
+      <div id="Code-example" class="even">
         <h2>Code example</h2>
         <p><b>Area or Perimeter KATA from CODEWARS:</b> You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square. If it is a square, return its area. If it is a rectangle, return its perimeter.
         </p>    
@@ -81,21 +85,29 @@
             </pre>
         
       </div>
-      <div id="Work-experience">
+      <div id="Work-experience" class="odd">
         <h2>Work experience</h2>
-        <p></p>
+        <ul>
+          <li>
+            <a href="https://ikalashnikov-web.github.io/calc/">Calculate</a>
+          </li>
+          <li>
+            “OneTwoFreeedom”, NBCO LLC
+          </li>
+        </ul>
       </div>
-      <div id="Education">
+      <div id="Education" class="even">
         <h2>Education</h2>
-        <p>RS School</p>
         <a href="https://rs.school/">
           RS School
         </a>
       </div>
-      <div id="Language">
+      <div id="Language" class="odd">
         <h2>Language</h2>
-        <p>English language</p>
-        <p>Stage: A1</p>
+        <ul>
+          <li>Russian: native</li>
+          <li>English: A1</li>
+        </ul>
       </div>
     </main>
     <footer>
