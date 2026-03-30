@@ -38,8 +38,8 @@ header{
 .myFoto {
   padding: 10% 5% 10% 2%;
   justify-content: center;
-  width: 125px;
-  height: auto; 
+  width: 125px; 
+  height: auto;
 }
 li {
   list-style: none;
