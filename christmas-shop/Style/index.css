@@ -1,18 +1,80 @@
+:root{
+    --dark: #181c29;
+    --red: #ff4646;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+
+    max-width: 1440px;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
 html{
     background-color: #ffffff;
-    width: 1440px;
 }
 .header{
     height: 64px;
 }
+.header__container{
+    display: flex;
+    padding-inline: 82px;
+}
+.header__logo-p{
+    align-items: center;
+    width: 141px;
+    color: var(--dark);
+
+}
+.header__nav{
+    padding-block: 12px;
+}
+.header__logo{
+    flex: 30%;
+    padding-block: 12px;
+}
+.header__list{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.header__list-link{
+    padding: 12px 20px 12px 20px;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 5%;
+    color: var(--dark);
+    transition: color 0.3s;
+}
+/* .header__list-link.active{
+    color: var(--red);
+    background-color: rgba(255, 70, 70, 0.1);
+    border-radius: 12px;
+} */
+.header__list-link:hover{
+    color: var(--red);
+    background-color: rgba(255, 70, 70, 0.1);
+    border-radius: 12px;
+}
 .hero__section {
-    background-color: #ff4646;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    background-color: var(--red);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
 }
 .hero__section {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
 }
@@ -21,10 +83,44 @@ html{
     position: absolute;
     top: 0;
     left: 0;
+
+    width: 1440px;
 }
 
 .img__bg-snow {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
+
+    width: 1440px;
+}
+
+.hero__text-cursive {
+    font-family: "Allura", sans-serif;
+    font-size: 24px;
+    font-variant: normal;
+}
+.hero__button{
+    width: 235px;
+    height: 56px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: var(--dark);
+    border-radius: 20px;
+    
+}
+.hero__button-text{
+    padding: 20px 32px;
+}
+.hero__tittle{
+    line-height: 150%;
+    letter-spacing: 18%;
+}
+.hero__text{
+    width: 426px;   
+    height: 404px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 507px;
+    display: grid;
 }
