@@ -22,7 +22,9 @@ a{
 }
 
 html{
+    scroll-behavior: smooth;
     background-color: #ffffff;
+    width: 1440px;
 }
 .header{
     height: 64px;
@@ -32,17 +34,25 @@ html{
     padding-inline: 82px;
 }
 .header__logo-p{
+    font-size: 12px;
     align-items: center;
-    width: 141px;
+    width: 69px;
+    height: 16px;
     color: var(--dark);
+    padding-left: 8px;
 
 }
 .header__nav{
     padding-block: 12px;
 }
 .header__logo{
+    display: flex;
     flex: 30%;
     padding-block: 12px;
+}
+.img__vector-snow{
+    width: 24px;
+    height: 24px;
 }
 .header__list{
     display: flex;
@@ -68,15 +78,14 @@ html{
     border-radius: 12px;
 }
 .hero__section {
-    background-color: var(--red);
+    /* background-color: var(--red);
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 20px; */
     
-}
-.hero__section {
     position: relative;
     top: 0;
     left: 0;
+    height: 100%;
 }
 
 .img__bg-ball{
@@ -85,6 +94,9 @@ html{
     left: 0;
 
     width: 1440px;
+     background-color: var(--red);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .img__bg-snow {
@@ -99,6 +111,9 @@ html{
     font-family: "Allura", sans-serif;
     font-size: 24px;
     font-variant: normal;
+    font-weight: 400;
+    color: #ffffff;
+    height: 24px;
 }
 .hero__button{
     width: 235px;
@@ -107,20 +122,34 @@ html{
     color: #ffffff;
     background-color: var(--dark);
     border-radius: 20px;
+    margin: 0 95.5px;
     
 }
 .hero__button-text{
     padding: 20px 32px;
+    
 }
 .hero__tittle{
+    font-size: 32px;
     line-height: 150%;
     letter-spacing: 18%;
+    color: #ffffff;
+    max-width: 426px;  
+    height: 144px;
+    text-align: center;
 }
 .hero__text{
+    position: absolute;
     width: 426px;   
     height: 404px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     padding: 60px 507px;
     display: grid;
+    text-align: center;
+    gap: 12px;
+}
+
+.hero__gap{
+    height: 60px;
 }
